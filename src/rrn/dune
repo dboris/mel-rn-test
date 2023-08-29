@@ -1,0 +1,6 @@
+(include_subdirs unqualified)
+
+(library
+ (name rrn)
+ (libraries reason-react)
+ (modes melange))
