@@ -3,4 +3,7 @@
 (library
  (name rrn)
  (libraries reason-react)
+ (wrapped false)
+ (preprocess
+  (pps reactjs-jsx-ppx))
  (modes melange))
