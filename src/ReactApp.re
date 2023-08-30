@@ -1,6 +1,4 @@
 module App = {
-  open Rrn
-
   [@react.component]
   let make = () =>
     <Text> "Hello from RN!" -> React.string </Text>;

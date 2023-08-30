@@ -1,0 +1,10 @@
+(include_subdirs unqualified)
+
+(library
+ (name reason_react_native)
+ (public_name reason-react-native)
+ (wrapped false)
+ (modes melange)
+ (libraries reason-react)
+ (preprocess
+  (pps reactjs-jsx-ppx)))

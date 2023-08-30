@@ -19,3 +19,9 @@
  (name melange-opam-template)
  (synopsis "Melange project")
  (description "Minimal melange project"))
+
+(package
+ (allow_empty)
+ (name reason-react-native)
+ (synopsis "Reason React Native")
+ (description "cp reason-react-native from npm"))
